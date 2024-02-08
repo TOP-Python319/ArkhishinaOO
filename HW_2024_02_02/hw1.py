@@ -47,7 +47,7 @@ print(f"Произведение чисел {mult_of_digits}")
 # Написать программу, преобразовывающую мили в километры.
 int_miles = input("Введите целое количество миль: ")
 float_miles = input("Введите количество миль после запятой: ")
-mileage = float("{0}.{1}".format(int_miles, float_miles))
+mileage = float("{0}.{1}".format(int_miles, float_miles))  # так же это можно было записать через f-строки
 kilometers = mileage * 1.61
 print(f"{mileage} миль = {kilometers: .1f} км")
 
