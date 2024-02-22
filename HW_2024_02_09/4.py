@@ -25,3 +25,22 @@ else:
 # Введите первую клетку: a1
 # Введите вторую клетку: b2
 # да
+
+# комментарий преподавателя:
+# чтобы так сильно не рябило в глазах от количества скобок
+# можно вынести значения в переменные
+# и уже условаие выглядит гораздо более читаемым
+
+# first_letter = ord(field_1[0])
+# first_digit = int(field_1[1])
+# second_letter = ord(field_2[0])
+# second_digit = int(field_2[1])
+
+# first_field = first_letter + first_digit
+# second_field = second_letter + second_digit
+
+# if ((first_field % 2 == 0 and second_field % 2 == 0) or (first_field % 2 != 0 and second_field % 2 != 0)) and (first_letter <= 104 and second_letter <= 104):
+    
+#     print("да")
+# else:
+#     print("нет")

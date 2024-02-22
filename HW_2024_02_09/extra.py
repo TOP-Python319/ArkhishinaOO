@@ -21,3 +21,9 @@ else:
 # 8
 # 4
 # no
+
+# комментарий преподавателя:
+# можно ещё короче =)
+
+# c1, r1, c2, r2 = int(input()), int(input()), int(input()), int(input())
+# print('YES' if abs(c1 - c2) == abs(r1 - r2) else 'NO')
